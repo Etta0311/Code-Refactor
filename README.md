@@ -24,7 +24,7 @@ It was a valued oppotunities to have some practical trials on building a logical
 
 1. Change non semantic to semantic elements
 
-   <div> and <span> are 2 non semantic elements used in original file which does not let the browser to classify the content.
+    div and span are 2 non semantic elements used in original file which does not let the browser to classify the content.
    Using semantic elements will be more readable to browser and so do users and developers.
    
    ![sementic elements highlighted with red box](./RMimages/semantic-elements.png)
