@@ -1,14 +1,16 @@
+/* Universal selectors - properties applied to all elements and attributes*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Body element selector - background colour changed in body part*/
 body {
     background-color: #d9dcd6;
 }
 
-/* Class selectors - Header, Logo name */
+/* Class selector - Added padding, changed font, font and background colour to content under header class*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,16 +18,18 @@ body {
     color: #ffffff;
 }
 
+/* Class selector - changed display method and font size to content under header_h1 class*/
 .header_h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Class selector - changed text colour applied to content under seo class*/
 .seo {
     color: #d9dcd6;
 }
 
-/* Class selectors - nav links*/
+/* Class selector - changed display method, font and font size to content under nav class*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -34,21 +38,24 @@ body {
     font-size: 20px;
 }
 
+/* Class selector - changed display method to content under nav_ul_li class*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* element selector - text colour changed for content under <a> element*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* element selector - font size changed for content under <p> element*/
 p {
     font-size: 16px;
 }
 
-/* Class selectors - Background image*/
+/* Class selector - properties of Background image changed*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,13 +65,16 @@ p {
     background-position: center;
 }
 
+/* class selector - display properties added to content class*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* Class selectors - 3 sections with same style*/
+/* Class selectors - display method, font and colour changed for supporting class*/
+/* supporting class applied to all 3 sections, 
+repleace original "Search Engine Optimization", "Online Reputation Management" & "Social Media Marketing" class*/
 .supporting{
     margin-bottom: 20px;
     padding: 50px;
@@ -74,27 +84,32 @@ p {
     color: #ffffff;
 }
 
+/* class selector - display size of image limited*/
 .supporting img {
     max-height: 200px;
 }
 
+/* class selector - display position, font size changed for heading h2*/
 .supporting h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/* Class selectors - for pictures locations*/
+/* Class selectors - for images location*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Class selectors - for image location*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-/* Class selectors - 3 asides with same style*/
+/* Class selectors - display method, font and colour changed for supporting class*/
+/* benefits class applied to all 3 asides elements, 
+repleace original "Lead Generation", "Brand Awareness" & "Cost Management" class*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -106,22 +121,26 @@ p {
     background-color: #2589bd;
 }
 
+/* class selector - change text colour & display method for content in logo class*/
 .logo {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* class selector - change text display method for content in logo_h3 class*/
 .logo h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* class selector - change display method & image max width for content in logo_img class*/
 .logo img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* class selector - changed padding, font and display method for footer class*/
 .footer {
     padding: 30px;
     clear: both;
@@ -129,6 +148,7 @@ p {
     text-align: center;
 }
 
+/* class selector - font size changed for context in footer_h4 class*/
 .footer h4 {
     font-size: 20px;
 }
